@@ -27,8 +27,6 @@
         <maven-assembly.version>2.6</maven-assembly.version>
         <jgitflow-maven-plugin.version>1.0-m5.1</jgitflow-maven-plugin.version>
     </properties>
-
-
     <build>
         <plugins>
             <plugin>
@@ -72,6 +70,14 @@
                         <environment>${environment}</environment>
                         <browser>${browser}</browser>
                     </systemPropertyVariables>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <!-- see goals wiki page for configuration options -->
                 </configuration>
             </plugin>
         </plugins>
@@ -174,9 +180,8 @@
         <dependency>
             <groupId>external.atlassian.jgitflow</groupId>
             <artifactId>jgitflow-maven-plugin</artifactId>
-            <version>${jgitflow-maven-plugin.version}</version>
+            <version>1.0-m5.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
     </dependencies>
 
     
