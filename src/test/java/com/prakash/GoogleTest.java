@@ -13,4 +13,9 @@ public class GoogleTest extends TestBase {
         Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id=\"hplogo\"]")).isDisplayed());
     }
 
+    @Test
+    public void testCase2(){
+        Assert.assertTrue(getDriver().findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[3]/center/input[1]")).isDisplayed());
+    }
+
 }
