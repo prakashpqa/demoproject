@@ -21,7 +21,7 @@
         <xml-apis>1.4.01</xml-apis>
         <dom4j.version>1.6.1</dom4j.version>
         <xmlbeans.version>2.6.0</xmlbeans.version>
-        <mysql-connector-java.version>6.0.4</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <web-automation.version>1.0.0</web-automation.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
         <maven-assembly.version>2.6</maven-assembly.version>
